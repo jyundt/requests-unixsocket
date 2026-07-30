@@ -366,6 +366,7 @@ jobs:
         toxenv:
         # - pre-commit
         - metadata-validation
+        - flake8
         # - build-docs
         # - coverage-docs
         # - doctest-docs

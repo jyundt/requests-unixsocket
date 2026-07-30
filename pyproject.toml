@@ -9,11 +9,12 @@ build-backend = "setuptools.build_meta"
 building = [
   "build",
 ]
+linting = [
+  "flake8",
+]
 testing = [
-  "pep8",
   "pytest",
   "pytest-cache",
-  "pytest-pep8",
   "waitress",
 ]
 upstreaming = [
