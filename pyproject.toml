@@ -25,6 +25,7 @@ upstreaming = [
 [project]
 name = "requests-unixsocket"
 description = "Use requests to talk HTTP via a UNIX domain socket"
+license = { text = "Apache-2.0" }
 requires-python = ">= 3.9"
 dependencies = [
   "requests >= 1.1",
